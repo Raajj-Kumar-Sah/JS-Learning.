@@ -18,7 +18,7 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-//.........................ACCESS THE ELEMENT OF THE OBJECT.........................
+//.........................ACCESS THE ELEMENT OF THE OBJECT.............................
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
@@ -47,4 +47,5 @@ JsUser.greetingTwo = function(){
 }
 
 console.log(JsUser.greeting());
+
 console.log(JsUser.greetingTwo());
